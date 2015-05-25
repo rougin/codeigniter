@@ -1,0 +1,13 @@
+{
+	"name": "rougin/codeigniter",
+	"description": "Yet another way to install CodeIgniter via Composer",
+	"keywords": ["php", "framework", "codeigniter"],
+	"require": {},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Rougin Gutib",
+			"email": "rougingutib@gmail.com"
+		}
+	]
+}
