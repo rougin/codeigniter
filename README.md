@@ -1,4 +1,4 @@
-# Combustor
+# CodeIgniter
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -18,7 +18,10 @@ If you want the latest updates, use ```rougin/codeigniter:dev-master```.
 
 ## Why?
 
-Out of curiosity. Though there [are](https://github.com/compwright/codeigniter-installers) [many](https://github.com/rogeriopradoj/codeigniter-composer), [many](https://github.com/bcit-ci/CodeIgniter) [ways](https://github.com/kenjis/codeigniter-composer-installer) to do it.
+- Out of curiosity.
+	- Though there [are](https://github.com/compwright/codeigniter-installers) [many](https://github.com/rogeriopradoj/codeigniter-composer), [many](https://github.com/bcit-ci/CodeIgniter) [ways](https://github.com/kenjis/codeigniter-composer-installer) to do it.
+- Simplify unit testing
+	- For me, unit testing is painful in CodeIgniter. Together with [Spark Plug](https://github.com/rougin/spark-plug), you can create CodeIgniter instances in your test cases.
 
 ## Change Log
 
