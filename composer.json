@@ -1,13 +1,34 @@
 {
-	"name": "rougin/codeigniter",
-	"description": "Yet another way to install CodeIgniter via Composer",
-	"keywords": ["php", "framework", "codeigniter"],
-	"require": {},
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Rougin Gutib",
-			"email": "rougingutib@gmail.com"
-		}
-	]
+    "name": "rougin/codeigniter",
+    "description": "Yet another way to install CodeIgniter via Composer",
+    "keywords": [
+        "codeigniter",
+        "composer",
+        "framework",
+        "mvc",
+        "php"
+    ],
+    "homepage": "https://github.com/rougin/codeigniter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rougin Royce Gutib",
+            "email": "rougingutib@gmail.com",
+            "homepage": "http://rougin.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2-dev"
+        }
+    },
+    "suggest": {
+        "rougin/combustor": "Lets you generate controllers, models, and views from database tables for CodeIgniter",
+        "rougin/refinery": "\"Ready-to-eat\" migrations for CodeIgniter",
+        "rougin/spark-plug": "Obtains an instance of CodeIgniter gracefully"
+    }
 }
