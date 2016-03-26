@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Yet another way to install [CodeIgniter](http://www.codeigniter.com/) via [Composer](https://getcomposer.org/).
+Installs [CodeIgniter](http://www.codeigniter.com/) core through [Composer](https://getcomposer.org/).
 
 ## Install
 
