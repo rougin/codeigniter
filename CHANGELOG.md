@@ -2,6 +2,11 @@
 
 All notable changes to `CodeIgniter` will be documented in this file.
 
+## [3.1.2](https://github.com/rougin/codeigniter/compare/v3.1.1...v3.1.2) - 2016-11-11
+
+### Changed
+- Version to [`v3.1.2`](http://www.codeigniter.com/user_guide/changelog.html#version-3-1-2)
+
 ## [3.1.1](https://github.com/rougin/codeigniter/compare/v3.1.0...v3.1.1) - 2016-10-25
 
 ### Changed
