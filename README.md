@@ -22,22 +22,9 @@ If you want the latest updates, use ```rougin/codeigniter:dev-master```.
 
 I want to create an installer for CodeIgniter's core using `composer require` command only.
 
-#### Related packages
-- https://github.com/compwright/codeigniter-installers
-- https://github.com/kenjis/codeigniter-composer-installer
-- https://github.com/rogeriopradoj/codeigniter-composer
-
 ### Simplify unit testing
 
 For me, unit testing is painful in CodeIgniter. Together with [Spark Plug](https://github.com/rougin/spark-plug), you can easily create CodeIgniter instances in your test cases.
-
-## Change Log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/rougin/codeigniter.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
