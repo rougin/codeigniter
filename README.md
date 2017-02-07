@@ -14,8 +14,6 @@ Via Composer
 $ composer create-project rougin/ignite "codeigniter"
 ```
 
-If you want the latest updates, use ```rougin/codeigniter:dev-master```.
-
 ## Why?
 
 ### Out of curiosity
@@ -24,7 +22,7 @@ I want to create an installer for CodeIgniter's core using `composer require` co
 
 ### Simplify unit testing
 
-For me, unit testing is painful in CodeIgniter. Together with [Spark Plug](https://github.com/rougin/spark-plug), you can easily create CodeIgniter instances in your test cases.
+Together with [Spark Plug](https://github.com/rougin/spark-plug), you can easily create CodeIgniter instances in your test cases.
 
 [ico-version]: https://img.shields.io/packagist/v/rougin/codeigniter.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
