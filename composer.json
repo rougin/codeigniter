@@ -1,6 +1,6 @@
 {
     "name": "rougin/codeigniter",
-    "description": "Yet another way to install CodeIgniter via Composer",
+    "description": "Installs CodeIgniter's core via Composer",
     "keywords": [
         "codeigniter",
         "composer",
@@ -29,6 +29,6 @@
     "suggest": {
         "rougin/combustor": "Lets you generate controllers, models, and views from database tables for CodeIgniter",
         "rougin/refinery": "\"Ready-to-eat\" migrations for CodeIgniter",
-        "rougin/spark-plug": "Obtains an instance of CodeIgniter gracefully"
+        "rougin/spark-plug": "Returns an instance of CodeIgniter"
     }
 }

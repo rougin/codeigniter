@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Installs [CodeIgniter](http://www.codeigniter.com/) core through [Composer](https://getcomposer.org/).
+A package that installs [CodeIgniter](http://www.codeigniter.com/)'s core via [Composer](https://getcomposer.org/).
 
 ## Install
 
