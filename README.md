@@ -11,6 +11,12 @@ A package that installs [CodeIgniter](http://www.codeigniter.com/)'s core via [C
 Via Composer
 
 ``` bash
+$ composer require rougin/codeigniter
+```
+
+### Using [Ignite](https://github.com/rougin/ignite)
+
+``` bash
 $ composer create-project rougin/ignite "project-name"
 ```
 
