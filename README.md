@@ -11,7 +11,7 @@ A package that installs [CodeIgniter](http://www.codeigniter.com/)'s core via [C
 Via Composer
 
 ``` bash
-$ composer create-project rougin/ignite "codeigniter"
+$ composer create-project rougin/ignite "project-name"
 ```
 
 ## Why?
