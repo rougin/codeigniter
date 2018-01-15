@@ -14,7 +14,7 @@ Via Composer
 $ composer require rougin/codeigniter
 ```
 
-### Using [Ignite](https://github.com/rougin/ignite)
+Via [Ignite](https://github.com/rougin/ignite) framework
 
 ``` bash
 $ composer create-project rougin/ignite "project-name"

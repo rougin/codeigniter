@@ -1,25 +1,19 @@
 {
     "name": "rougin/codeigniter",
-    "description": "Installs CodeIgniter's core via Composer",
-    "keywords": [
-        "codeigniter",
-        "composer",
-        "framework",
-        "mvc",
-        "php"
-    ],
+    "description": "A package that installs Codeigniter's core via Composer.",
+    "keywords": ["codeigniter", "composer", "framework", "mvc", "php"],
     "homepage": "https://github.com/rougin/codeigniter",
     "license": "MIT",
     "authors": [
         {
             "name": "Rougin Royce Gutib",
             "email": "rougingutib@gmail.com",
-            "homepage": "http://rougin.github.io",
+            "homepage": "https://rougin.github.io",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.3.0"
     },
     "extra": {
         "branch-alias": {
@@ -27,8 +21,8 @@
         }
     },
     "suggest": {
-        "rougin/combustor": "Lets you generate controllers, models, and views from database tables for CodeIgniter",
-        "rougin/refinery": "\"Ready-to-eat\" migrations for CodeIgniter",
-        "rougin/spark-plug": "Returns an instance of CodeIgniter"
+        "rougin/combustor": "Generates MVC code for Codeigniter using database tables.",
+        "rougin/refinery": "\"Ready-to-eat\" migrations for the Codeigniter framework.",
+        "rougin/spark-plug": "Returns Codeigniter applications as single variables."
     }
 }

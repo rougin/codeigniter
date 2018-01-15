@@ -1,6 +1,12 @@
 # Changelog
 
-All notable changes to `CodeIgniter` will be documented in this file.
+All notable changes to `Codeigniter` will be documented in this file.
+
+## [3.1.7](https://github.com/rougin/codeigniter/compare/v3.1.6...v3.1.7) - 2018-01-16
+
+### Changed
+- Minimum PHP version to `v5.3.0`
+- Version to [`v3.1.7`](http://www.codeigniter.com/user_guide/changelog.html#version-3-1-7)
 
 ## [3.1.6](https://github.com/rougin/codeigniter/compare/v3.1.5...v3.1.6) - 2017-10-05
 
