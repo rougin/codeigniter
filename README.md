@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Installs the "system" directory of the [Codeigniter]((http://www.codeigniter.com/) framework.
+Installs the "system" directory of the [Codeigniter](http://www.codeigniter.com/) framework.
 
 ## Install
 
@@ -28,7 +28,7 @@ I want to create an installer for Codeigniter's core using `composer require` co
 
 ### One-command update
 
-I just need to run the `composer update` command to update the Codeigniter's core functionalities.
+I just need to run the `composer update` command to update the framework's core functionalities.
 
 ### Simplify unit testing
 
