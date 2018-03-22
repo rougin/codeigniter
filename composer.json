@@ -1,7 +1,7 @@
 {
     "name": "rougin/codeigniter",
-    "description": "A package that installs Codeigniter's core via Composer.",
-    "keywords": ["codeigniter", "composer", "framework", "mvc", "php"],
+    "description": "Installs the \"system\" directory of the Codeigniter framework.",
+    "keywords": ["codeigniter", "composer", "framework", "mvc", "system", "php"],
     "homepage": "https://github.com/rougin/codeigniter",
     "license": "MIT",
     "authors": [
