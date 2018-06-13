@@ -2,6 +2,11 @@
 
 All notable changes to `Codeigniter` will be documented in this file.
 
+## [3.1.9](https://github.com/rougin/codeigniter/compare/v3.1.8...v3.1.9) - 2018-06-13
+
+### Changed
+- Version to [`v3.1.9`](https://www.codeigniter.com/user_guide/changelog.html#version-3-1-9)
+
 ## [3.1.8](https://github.com/rougin/codeigniter/compare/v3.1.7...v3.1.8) - 2018-03-23
 
 ### Changed

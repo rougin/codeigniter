@@ -1,10 +1,10 @@
 # Codeigniter
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
+[![Software License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Installs the "system" directory of the [Codeigniter](http://www.codeigniter.com/) framework.
+Provides the core functionality of the [Codeigniter](http://www.codeigniter.com/) framework.
 
 ## Install
 
@@ -22,13 +22,13 @@ $ composer create-project rougin/ignite "project-name"
 
 ## Why?
 
-### Out of curiosity
-
-I want to create an installer for Codeigniter's core using `composer require` command only.
-
 ### One-command update
 
 I just need to run the `composer update` command to update the framework's core functionalities.
+
+### Out of curiosity
+
+I want to create an installer for Codeigniter's core using `composer require` command only.
 
 ### Simplify unit testing
 
@@ -38,7 +38,6 @@ Together with [Spark Plug](https://github.com/rougin/spark-plug), you can easily
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/rougin/codeigniter.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/rougin/codeigniter
 [link-downloads]: https://packagist.org/packages/rougin/codeigniter
-[link-author]: https://github.com/rougin
-[link-contributors]: ../../contributors
+[link-license]: https://github.com/rougin/codeigniter/blob/master/LICENSE.md
+[link-packagist]: https://packagist.org/packages/rougin/codeigniter
