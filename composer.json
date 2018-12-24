@@ -1,28 +1,36 @@
 {
     "name": "rougin/codeigniter",
-    "description": "Installs the \"system\" directory of the Codeigniter framework.",
-    "keywords": ["codeigniter", "composer", "framework", "mvc", "system", "php"],
-    "homepage": "https://github.com/rougin/codeigniter",
+    "description": "Packaged \"system\" folder of the Codeigniter framework.",
+    "keywords": ["codeigniter", "composer", "framework", "system", "php"],
+    "homepage": "https://rougin.github.io/codeigniter/",
     "license": "MIT",
-    "authors": [
+    "authors":
+    [
         {
-            "name": "Rougin Royce Gutib",
             "email": "rougingutib@gmail.com",
-            "homepage": "https://rougin.github.io",
-            "role": "Developer"
+            "homepage": "https://rougin.github.io/",
+            "name": "Rougin Gutib",
+            "role": "Software Engineer"
         }
     ],
-    "require": {
+    "require":
+    {
         "php": ">=5.3.0"
     },
-    "extra": {
-        "branch-alias": {
+    "extra":
+    {
+        "branch-alias":
+        {
             "dev-master": "3.2-dev"
         }
     },
-    "suggest": {
-        "rougin/combustor": "Generates MVC code for Codeigniter using database tables.",
-        "rougin/refinery": "\"Ready-to-eat\" migrations for the Codeigniter framework.",
-        "rougin/spark-plug": "Returns Codeigniter applications as single variables."
+    "suggest":
+    {
+        "rougin/combustor": "CRUD generator for the Codeigniter framework.",
+        "rougin/credo": "Doctrine ORM integration for the Codeigniter framework.",
+        "rougin/ignite": "Composer-based project for the Codeigniter framework.",
+        "rougin/refinery": "\"Ready-to-eat\" migrations for Codeigniter framework",
+        "rougin/spark-plug": "Codeigniter applications as single variables.",
+        "rougin/wildfire": "Query Builder wrapper for the Codeigniter framework."
     }
 }

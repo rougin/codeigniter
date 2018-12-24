@@ -6,15 +6,15 @@
 
 Provides the core functionality of the [Codeigniter](http://www.codeigniter.com/) framework.
 
-## Install
+## Installation
 
-Via [Composer](https://getcomposer.org/)
+Install `Codeigniter` via [Composer](https://getcomposer.org/):
 
 ``` bash
 $ composer require rougin/codeigniter
 ```
 
-Via [Ignite](https://github.com/rougin/ignite) framework
+To create a new project, install [Ignite](https://github.com/rougin/ignite) instead:
 
 ``` bash
 $ composer create-project rougin/ignite "project-name"
