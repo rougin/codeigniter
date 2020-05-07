@@ -2,13 +2,13 @@
     "name": "rougin/codeigniter",
     "description": "Packaged \"system\" folder of the Codeigniter framework.",
     "keywords": ["codeigniter", "composer", "framework", "system", "php"],
-    "homepage": "https://rougin.github.io/codeigniter/",
+    "homepage": "https://roug.in/codeigniter/",
     "license": "MIT",
     "authors":
     [
         {
             "email": "rougingutib@gmail.com",
-            "homepage": "https://rougin.github.io/",
+            "homepage": "https://roug.in/",
             "name": "Rougin Gutib",
             "role": "Software Engineer"
         }
