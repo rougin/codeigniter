@@ -4,7 +4,7 @@
 [![Software License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Provides the core functionality of the [Codeigniter](http://www.codeigniter.com/) framework.
+This is a library that provides the core functionality (the "system" folder) of the [Codeigniter](http://www.codeigniter.com/) framework that might can be useful for testing framework-related libraries.
 
 ## Installation
 
@@ -33,6 +33,38 @@ I want to create an installer for Codeigniter's core using `composer require` co
 ### Simplify unit testing
 
 Together with [Spark Plug](https://github.com/rougin/spark-plug), you can easily create Codeigniter instances in your test cases.
+
+## Ignite project
+
+Ignite is a [Composer](https://getcomposer.org/)-based project for the [Codeigniter](http://www.codeigniter.com/) framework which has a different structure of the "application" folder compared to the [original](https://github.com/bcit-ci/CodeIgniter/tree/develop/application). It was created to demonstrate the convenience of using the Composer-based Codeigniter packages in creating new applications.
+
+### Folder Structure
+
+``` bash
+new-application/
+├── cache/
+├── config/
+├── controllers/
+├── core/
+├── helpers/
+├── hooks/
+├── language/
+├── libraries/
+├── logs/
+├── models/
+├── third_party/
+├── vendor/
+├── views/
+├── web/
+│   ├── user_guide
+│   ├── .htaccess
+│   └── index.php
+└── composer.json
+```
+
+## License
+
+The MIT License (MIT). Please see [LICENSE][link-license] for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/rougin/codeigniter.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
