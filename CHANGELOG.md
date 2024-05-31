@@ -2,6 +2,11 @@
 
 All notable changes to `Codeigniter` will be documented in this file.
 
+## [3.1.13](https://github.com/rougin/codeigniter/compare/v3.1.12...v3.1.13) - 2024-06-01
+
+### Changed
+- Version to [`v3.1.13`](https://www.codeigniter.com/userguide3/changelog.html#version-3-1-13)
+
 ## [3.1.12](https://github.com/rougin/codeigniter/compare/v3.1.11...v3.1.12) - 2024-06-01
 
 ### Changed
