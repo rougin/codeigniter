@@ -1,36 +1,36 @@
 {
-    "name": "rougin/codeigniter",
-    "description": "Packaged \"system\" folder of the Codeigniter framework.",
-    "keywords": ["codeigniter", "composer", "framework", "system", "php"],
-    "homepage": "https://roug.in/codeigniter/",
-    "license": "MIT",
-    "authors":
-    [
-        {
-            "email": "rougingutib@gmail.com",
-            "homepage": "https://roug.in/",
-            "name": "Rougin Gutib",
-            "role": "Software Engineer"
-        }
-    ],
-    "require":
-    {
-        "php": ">=5.3.0"
-    },
-    "extra":
-    {
-        "branch-alias":
-        {
-            "dev-master": "3.2-dev"
-        }
-    },
-    "suggest":
-    {
-        "rougin/combustor": "CRUD generator for the Codeigniter framework.",
-        "rougin/credo": "Doctrine ORM integration for the Codeigniter framework.",
-        "rougin/ignite": "Composer-based project for the Codeigniter framework.",
-        "rougin/refinery": "\"Ready-to-eat\" migrations for Codeigniter framework",
-        "rougin/spark-plug": "Codeigniter applications as single variables.",
-        "rougin/wildfire": "Query Builder wrapper for the Codeigniter framework."
-    }
+	"name": "rougin/codeigniter",
+	"description": "Packaged \"system\" folder of the Codeigniter framework.",
+	"keywords": [ "codeigniter", "composer", "framework", "system", "php" ],
+	"homepage": "https://roug.in/codeigniter/",
+	"license": "MIT",
+	"authors":
+	[
+		{
+			"email": "rougingutib@gmail.com",
+			"homepage": "https://roug.in/",
+			"name": "Rougin Gutib",
+			"role": "Software Engineer"
+		}
+	],
+	"require":
+	{
+		"php": ">=5.3.0"
+	},
+	"extra":
+	{
+		"branch-alias":
+		{
+			"dev-master": "3.2-dev"
+		}
+	},
+	"suggest":
+	{
+		"rougin/combustor": "CRUD generator for the Codeigniter framework.",
+		"rougin/credo": "Doctrine ORM integration for the Codeigniter framework.",
+		"rougin/ignite": "Composer-based project for the Codeigniter framework.",
+		"rougin/refinery": "\"Ready-to-eat\" migrations for Codeigniter framework",
+		"rougin/spark-plug": "Codeigniter applications as single variables.",
+		"rougin/wildfire": "Query Builder wrapper for the Codeigniter framework."
+	}
 }
