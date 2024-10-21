@@ -289,10 +289,22 @@ class CI_Migration {
 				$this->_error_string = sprintf($this->lang->line('migration_class_doesnt_exist'), $class);
 				return FALSE;
 			}
-			elseif ( ! method_exists($class, $method) OR ! (new ReflectionMethod($class, $method))->isPublic())
+			else
 			{
-				$this->_error_string = sprintf($this->lang->line('migration_missing_'.$method.'_method'), $class);
-				return FALSE;
+				$exists = false;
+
+				if (method_exists($class, $method))
+				{
+					$method = new ReflectionMethod($class, $method);
+
+					$exists = $method->isPublic();
+				}
+
+				if (! $exists)
+				{
+					$this->_error_string = sprintf($this->lang->line('migration_missing_'.$method.'_method'), $class);
+					return FALSE;
+				}
 			}
 
 			$pending[$number] = array($class, $method);
