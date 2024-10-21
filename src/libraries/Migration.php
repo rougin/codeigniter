@@ -291,12 +291,11 @@ class CI_Migration {
 			}
 			else
 			{
-				$exists = false;
+				$exists = method_exists($class, $method);
 
-				if (method_exists($class, $method))
+				if ($exists)
 				{
 					$method = new ReflectionMethod($class, $method);
-
 					$exists = $method->isPublic();
 				}
 
