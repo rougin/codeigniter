@@ -14,11 +14,15 @@ Install `Codeigniter` via [Composer](https://getcomposer.org/):
 $ composer require rougin/codeigniter
 ```
 
+### Using `Ignite`
+
 If wanting to create a new project, the [Ignite](https://roug.in/ignite/) package can be used instead:
 
 ``` bash
 $ composer create-project rougin/ignite "ciacme"
 ```
+
+[Ignite](https://roug.in/ignite/) is yet another `Codeigniter 3` project template with a twist. It uses an alternative and secured directory structure for new `Codeigniter 3` projects. Instead of the common `system` directory, this project template uses `rougin/codeigniter` as its base package.
 
 ## Why?
 
@@ -41,10 +45,6 @@ It just gained [my interest](https://roug.in/projects/) before if there is an al
 ### For unit testing
 
 Together with [Spark Plug](https://roug.in/spark-plug/), this package can easily create `Codeigniter 3` instances in unit tests.
-
-## `Ignite` project
-
-[Ignite](https://roug.in/ignite/) is yet another `Codeigniter 3` project template with a twist. It uses an alternative and secured directory structure for new `Codeigniter 3` projects. Instead of the common `system` directory, this project template uses `rougin/codeigniter` as its base package.
 
 ## Changelog
 
