@@ -4,7 +4,7 @@
 [![Software License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This is the `system` directory of [Codeigniter 3](https://codeigniter.com/userguide3/) packaged in [Composer](https://getcomposer.org/).
+This is the `system` directory of [Codeigniter 3](https://codeigniter.com/userguide3/) prepared as a package in [Composer](https://getcomposer.org/).
 
 ## Installation
 
@@ -22,13 +22,17 @@ $ composer create-project rougin/ignite "ciacme"
 
 ## Why?
 
+I was a big fan of `Codeigniter 3` back in the day as it is my very first PHP framework to work with. With this, I tried to create this package to provide quality of development improvements when writing projects under `Codeigniter 3` before and the following other reasons below:
+
 ### One-command update
 
-This provides an easy way to update the internals of `Codeigniter 3`. There's no need to perform copy and pasting of files:
+This package provides an easy way to update the internals of `Codeigniter 3`:
 
 ``` bash
 $ composer update
 ```
+
+With a simple command, there's no need to perform copy and pasting of files whenever there is an update.
 
 ### Out of curiosity
 
