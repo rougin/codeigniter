@@ -4,7 +4,7 @@
 [![Software License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This is a library that provides the core functionality (the "system" folder) of the [Codeigniter](http://www.codeigniter.com/) framework that might can be useful for testing framework-related libraries.
+This is the `system` directory of [Codeigniter 3](https://codeigniter.com/userguide3/) packaged in [Composer](https://getcomposer.org/).
 
 ## Installation
 
@@ -14,53 +14,37 @@ Install `Codeigniter` via [Composer](https://getcomposer.org/):
 $ composer require rougin/codeigniter
 ```
 
-To create a new project, install [Ignite](https://github.com/rougin/ignite) instead:
+If wanting to create a new project, the [Ignite](https://roug.in/ignite/) package can be used instead:
 
 ``` bash
-$ composer create-project rougin/ignite "project-name"
+$ composer create-project rougin/ignite "ciacme"
 ```
 
 ## Why?
 
 ### One-command update
 
-I just need to run the `composer update` command to update the framework's core functionalities.
+This provides an easy way to update the internals of `Codeigniter 3`. There's no need to perform copy and pasting of files:
+
+``` bash
+$ composer update
+```
 
 ### Out of curiosity
 
-I want to create an installer for Codeigniter's core using `composer require` command only.
+It just gained [my interest](https://roug.in/projects/) before if there is an alternative way to update a `Codeigniter 3` project with minimal effort.
 
-### Simplify unit testing
+### For unit testing
 
-Together with [Spark Plug](https://github.com/rougin/spark-plug), you can easily create Codeigniter instances in your test cases.
+Together with [Spark Plug](https://roug.in/spark-plug/), this package can easily create `Codeigniter 3` instances in unit tests.
 
-## Ignite project
+## `Ignite` project
 
-Ignite is a [Composer](https://getcomposer.org/)-based project for the [Codeigniter](http://www.codeigniter.com/) framework which has a different structure of the "application" folder compared to the [original](https://github.com/bcit-ci/CodeIgniter/tree/develop/application). It was created to demonstrate the convenience of using the Composer-based Codeigniter packages in creating new applications.
+[Ignite](https://roug.in/ignite/) is yet another `Codeigniter 3` project template with a twist. It uses an alternative and secured directory structure for new `Codeigniter 3` projects. Instead of the common `system` directory, this project template uses `rougin/codeigniter` as its base package.
 
-### Folder Structure
+## Changelog
 
-``` bash
-new-application/
-├── cache/
-├── config/
-├── controllers/
-├── core/
-├── helpers/
-├── hooks/
-├── language/
-├── libraries/
-├── logs/
-├── models/
-├── third_party/
-├── vendor/
-├── views/
-├── web/
-│   ├── user_guide
-│   ├── .htaccess
-│   └── index.php
-└── composer.json
-```
+Please see the [Change Log](https://codeigniter.com/userguide3/changelog.html) page from the `Codeigniter 3` website for its latest updates.
 
 ## License
 
