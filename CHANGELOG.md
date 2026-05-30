@@ -4,6 +4,9 @@ All notable changes to `Codeigniter` will be documented in this file.
 
 ## [3.1.14](https://github.com/rougin/codeigniter/compare/v3.1.13...v3.1.14) - 2026-05-30
 
+### Changed
+- Forced `string` to `cur_page` in `Pagination`
+
 ### Fixed
 - Deprecated creation of dynamic property (PHP 8.2)
 
