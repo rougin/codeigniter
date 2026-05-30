@@ -2,6 +2,11 @@
 
 All notable changes to `Codeigniter` will be documented in this file.
 
+## [3.1.14](https://github.com/rougin/codeigniter/compare/v3.1.13...v3.1.14) - 2026-05-30
+
+### Fixed
+- Deprecated creation of dynamic property (PHP 8.2)
+
 ## [3.1.13](https://github.com/rougin/codeigniter/compare/v3.1.12...v3.1.13) - 2024-06-01
 
 ### Changed
